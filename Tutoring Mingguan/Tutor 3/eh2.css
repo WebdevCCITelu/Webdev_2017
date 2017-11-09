@@ -1,0 +1,17 @@
+p{
+	font-style: italic;
+	color: blue;
+}
+
+h1{
+	color: red;
+	font-size: 200%;
+}
+
+.bebas{/*class selector*/
+	color: pink;
+}
+
+#footer{
+	color: yellow;
+}

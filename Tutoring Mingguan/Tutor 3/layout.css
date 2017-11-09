@@ -1,0 +1,49 @@
+body{
+	font-family: arial;
+}
+
+.wrap{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header{
+	width: auto;
+	background: #ff005a;
+	padding: 20px;
+	color: #fff;
+}
+
+.main{
+	width: 100%;
+	background: #6f9;
+}
+
+.konten{
+	float: left;
+	width: 60%;
+	background: yellow;
+	background-size: cover;
+	padding: 2%;
+	min-height: 400px;
+	color: #fff;
+}
+
+.sidebar{
+	float: right;
+	width: 30%;
+	background:#6f9;
+	padding: 2%;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.footer{
+	width: auto;
+	padding: 5px 10px;
+	background:#333;
+	color: #fff;
+}
