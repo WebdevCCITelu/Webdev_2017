@@ -1,0 +1,149 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#site-container{
+	width: 964px;
+	height: auto;
+	margin: 20px auto;
+	border: 1px solid #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#header{
+	width: 961px;
+	height: 261px;
+	margin: 5px auto;
+	background:url(images/cci.jpg);
+	border: 2px solid #000;
+}
+
+#menu-content{
+	width: 950px;
+	height: auto;
+	margin: 5 auto;
+}
+
+#menu{
+	float: left;
+	width: 300px;
+	height: 600px;
+	border: 2px solid #000;
+}
+
+#content{
+	float: right;
+	width: 625px;
+	height: 600px;
+	border:1px solid #000;
+}
+
+#footer{
+	width: 950px;
+	height: 70px;
+	margin: 5px auto;
+	border: 1px solid #000;
+}
+
+.floating{
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+}
+
+#header a{
+	font:28pt 'Matura MT Script Capitals';
+	text-decoration: none;
+	color: blue;
+}
+
+#header p{
+	font:20pt 'Brush Script Std';
+	color: red;
+}
+
+.judul_1{
+	display: block;
+	height: 40px;
+	background: #646464;
+	font:20pt "Script MT Bold";
+	color: #fff;
+	text-align: center;
+	border:1px solid red;
+}
+
+#menu ul{
+	list-style: none; /*untuk menghilangkan
+						bullet pada list*/
+}
+
+#menu li a{
+	display: block;
+	height: 30px;
+	background:#24928f;
+	font: 16pt "Script MT Bold";
+	color: #000;
+	text-decoration: none;/*untuk menghilangkan
+							underline pada text
+							link*/ 
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding-left: 20px;
+}
+
+#menu li a:hover{
+	background: #e7e7e7;
+	color: white;
+}
+
+#content{
+	width: 610px;
+	height: auto;
+	/*border: 1px solid #000;*/
+	float: right;
+	background: #e7e7e7;
+	padding: 15px;
+}
+
+.judul_2{
+	display: block;
+	border-bottom: 2px solid #000;
+	font:26pt "Script MT Bold";
+	color:#000;
+	padding-bottom:10px;
+}
+
+.img{
+	width: 250px;
+	height: 250px;
+	border:5px solid white;
+	margin-top: 20px;
+	margin-right: 20px;
+	float:left;
+}
+
+#content p{
+	margin-top: 20px;
+}
+
+#footer{
+	width: 950px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #e7e7e7;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+body{
+	background: #42aeae;
+	font:10pt verdana;
+}
